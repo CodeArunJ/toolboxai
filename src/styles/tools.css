@@ -1,0 +1,53 @@
+/* src/styles/Tools.css */
+
+/* Container for the filter controls and button */
+.filter-container {
+  display: flex;
+  flex-direction: column; /* Stack filters vertically */
+  gap: 15px; /* Space between filter elements */
+  margin-bottom: 20px; /* Margin below the filter section */
+}
+
+/* Container for buttons */
+.button-container {
+  display: flex;
+  flex-wrap: wrap; /* Allows wrapping if there are too many buttons */
+  justify-content: center; /* Center align buttons horizontally */
+  gap: 10px; /* Space between buttons */
+}
+
+/* Individual button styles */
+.button-container button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff; /* Text color */
+  background-color: #007bff; /* Button background color */
+  border: none;
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.button-container button:hover {
+  background-color: #0056b3; /* Darker background on hover */
+}
+
+.button-container button:focus {
+  outline: none; /* Remove default focus outline */
+}
+/* src/styles/tools.css */
+.container {
+  padding-left: 20px; /* Add space on the left side */
+}
+
+.filter-container {
+  margin-bottom: 20px; /* Add space between the filter and the results */
+}
+
+#filterButton {
+  margin-top: 10px; /* Add space above the filter button */
+}
+
+#filteredTools {
+  margin-top: 20px; /* Add space between the filter results and the filter section */
+}

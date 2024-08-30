@@ -1,0 +1,169 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Header Styles */
+header {
+  background-color: #007bff;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+
+header h1 {
+  margin: 0;
+}
+
+.top-right-image {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+/* Container and Row Styles */
+.container {
+  padding: 20px;
+}
+
+.row {
+  margin-bottom: 20px;
+}
+
+/* Video Styles */
+.background-video {
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+/* Button Styles */
+.explore-button {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.explore-button:hover {
+  background-color: #218838;
+}
+
+/* List Styles */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+/* Contact Information Styles */
+.email-link,
+.contact-link,
+.facebook-link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.email-link:hover,
+.contact-link:hover,
+.facebook-link:hover {
+  text-decoration: underline;
+}
+
+/* Popup Styles */
+.popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  z-index: 1000;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Additional Content */
+.container > div:last-child {
+  padding: 20px;
+  background-color: #e9ecef;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+/* Home.css */
+
+/* Style for the images in the "People using AI tools" section */
+#row2 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.background-video {
+  width: 100%;
+  height: auto;
+  max-height: 500px; /* Adjust if necessary */
+  object-fit: cover;
+}
+
+.image-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Space between images */
+  flex-wrap: wrap; /* Allows wrapping of images if needed */
+}
+
+.image-gallery img {
+  width: 300px; /* Adjust size as needed */
+  height: 200px; /* Adjust size as needed */
+  border-radius: 10px; /* Rounded corners */
+  object-fit: cover; /* Ensures images cover the area without distortion */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image-gallery img:hover {
+  transform: scale(1.05); /* Slight zoom effect on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Shadow effect */
+}
+
+/* Home.css */
+
+.top-right-image {
+  width: 100px; /* Adjust size as needed */
+  height: 100px; /* Adjust size as needed */
+  border-radius: 50%; /* Makes the image circular */
+  object-fit: cover; /* Ensures the image covers the circle without distortion */
+}
