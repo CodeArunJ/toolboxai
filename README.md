@@ -1,7 +1,7 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+Description
+ToolboxAI is a React-based application designed to streamline access to a wide range of AI tools categorized by their functions. The platform allows users to explore tools for various purposes including code generation, content creation, image generation, and more. With an intuitive interface and organized categories, ToolboxAI aims to simplify the process of discovering and utilizing AI tools effectively.
 ## Available Scripts
 
 In the project directory, you can run:
